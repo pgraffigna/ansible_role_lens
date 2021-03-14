@@ -1,0 +1,5 @@
+[cliente]
+192.168.0.7
+
+[cliente:vars]
+ansible_ssh_user=quentin

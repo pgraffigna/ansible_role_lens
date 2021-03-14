@@ -1,0 +1,14 @@
+---
+- name: Instalación de snapd
+  apt:
+    name: snapd
+    update_cache: yes
+
+- name: Instalar lens 
+  snap:
+    name: kontena-lens
+    classic: yes
+
+
+
+    
